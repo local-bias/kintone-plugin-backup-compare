@@ -8,16 +8,16 @@ export default {
   manifest: {
     base: {
       manifest_version: 1,
-      version: '1.0.0',
+      version: '0.1.0',
       type: 'APP',
       name: {
-        en: 'kintone-plugin-template',
-        ja: 'プラグインテンプレート',
-        zh: '插件模板',
+        en: 'Backup & Diff Comparison Plugin',
+        ja: 'バックアップ＆差分比較プラグイン',
+        zh: '备份与差异比较插件',
       },
       description: {
-        en: 'kintone-plugin-template',
-        ja: 'プラグインの説明をここに記載します',
+        en: 'Back up record information at a specific point in time and compare the differences with the current state.',
+        ja: '特定の時点のレコード情報をバックアップし、現時点との差分を比較します。',
         zh: '插件模板',
       },
       icon: 'icon.png',
